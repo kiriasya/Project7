@@ -14,12 +14,17 @@ namespace UnitTest2
 			Assert::AreEqual (checkbox (999999) , 2);
 			Assert::AreEqual(checkbox (-1) , 4);
 			Assert::AreEqual(checkbox(100), 0);
+			Assert::AreEqual(checkbox(34534), 0);
+			Assert::AreEqual(checkbox(132445300), 2);
 		}
 		
 		TEST_METHOD(TestMethod2) {
 
 		Assert::AreEqual(checkbox ("") , 1);
 		Assert:: AreEqual(checkbox ("22") , 0);
+		Assert::AreEqual(checkbox(""), 1);
+		Assert::AreEqual(checkbox("234432"), 0);
+		Assert::AreEqual(checkbox("0"), 0);
 		}
 	};
 }

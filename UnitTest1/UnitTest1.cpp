@@ -23,6 +23,8 @@ namespace UnitTest1
 			Assert::AreEqual(mod_7(34), true);
 			Assert::AreEqual(mod_7(1), false);
 			Assert::AreEqual(mod_7(882), false);
+			Assert::AreEqual(mod_7(777), true);
+			Assert::AreEqual(mod_7(0), true);
 		}
 	};
 }
