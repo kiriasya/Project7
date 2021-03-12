@@ -1,7 +1,7 @@
 #include "pch.h"
 #include "CppUnitTest.h"
-#include "C:\Users\mihan\source\repos\Project7\Project7\arith.cpp"
-#include "C:\Users\mihan\source\repos\Project7\Project7\mod_7.cpp"
+#include "C:\Users\kiri\Desktop\учеба 6\тестирование\ввод массива\Project7\Project7\arith.cpp"
+#include "C:\Users\kiri\Desktop\учеба 6\тестирование\ввод массива\Project7\Project7\mod_7.cpp"
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace UnitTest1

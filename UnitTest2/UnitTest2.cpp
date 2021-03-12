@@ -1,6 +1,6 @@
 #include "pch.h"
 #include "CppUnitTest.h"
-#include "C:\Users\mihan\source\repos\Project7\Project7\checkBox.cpp"
+#include "C:\Users\kiri\Desktop\учеба 6\тестирование\ввод массива\Project7\Project7\checkbox.cpp"
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace UnitTest2
